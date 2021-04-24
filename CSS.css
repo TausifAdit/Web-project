@@ -1,0 +1,484 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family: "Times New Roman", Times, serif;
+   scroll-behavior: smooth;
+}
+.navbar {
+   background-color: #003a49;
+   height: 100px;
+   width: 100%;
+   top: 0;
+   position: fixed;
+}
+.navbar .navall {
+   display: flex;
+}
+.navbar .navall .navtitle {
+   color: white;
+   font-size: 40px;
+   padding-left: 30px;
+   font-style: oblique;
+}
+.navbar .navall .navitemcol {
+   margin-left: 45%;
+   line-height: 150px;
+}
+.navbar .navall .navitemcol a{
+   color: white;
+   font-size: 20px;
+   padding-right: 15px;
+}
+.navbar .navall .navitemcol a:hover {
+   color: orange;
+}
+.upbody-100 {
+   background-color: black;
+   width: 100%;
+   height: 900px;
+}
+.upbody-100 .upbody1 {
+   background-color: gray;
+   width: 1500px;
+   height: 100%;
+   margin: 0 auto;
+}
+.upbody-100 .upbody1 .upbodyhead {
+   background-color: black;
+   width: 100%;
+   height: 150px;
+   margin: 0 auto;
+}
+.upbody-100 .upbody1 .upbodyhead h1 {
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   line-height: 150px;
+   margin-top: 100px;
+}
+.upbody-100 .upbody1 .upbodycont {
+   background-color: black;
+   width: 100%;
+   height: 750px;
+   margin: 0 auto;
+   display: flex;
+}
+.upbody-100 .upbody1 .upbodycont .picslide {
+   width: 100%;
+   height: 100%;
+   margin: 0 auto;
+   display: flex;
+   border-radius: 5%;
+}
+.ser-100 {
+   background-color: black;
+   width: 100%;
+   height: 1000px;
+}
+.ser-100 .ser1 {
+   background-color: black;
+   width: 1600px;
+   height: 100%;
+   margin: 0 auto;
+}
+.ser-100 .ser1 .serhead {
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+   height: 150px;
+   margin: 0 auto;
+}
+.ser-100 .ser1 .sercont {
+   width: 100%;
+   height: 850px;
+   margin: 0 auto;
+   display: flex;
+}
+.ser-100 .ser1 .serhead h1 {
+   color: white;
+   text-align: center;
+   font-size: 45px;
+   line-height: 150px;
+}
+.ser-100 .ser1 .col1 {
+   background-color: #0d3c61;
+   width: 500px;
+   height: 850px;
+   margin: 0 auto;
+}
+.ser-100 .ser1 .col1 i {
+   color: white;
+   font-size: 170px;
+   margin-left: 45px;
+   margin-top: 5px;
+}
+.ser-100 .ser1 .col1 h4{
+   color: white;
+   font-size: 30px;
+   text-align: center;
+}
+.ser-100 .ser1 .col2 h4{
+   color: white;
+   font-size: 30px;
+   text-align: center;
+}
+.ser-100 .ser1 .col3 h4{
+   color: white;
+   font-size: 30px;
+   text-align: center;
+}
+.ser-100 .ser1 .col4 h4{
+   color: white;
+   font-size: 30px;
+   text-align: center;
+}
+.ser-100 .ser1 .col5 h4{
+   color: white;
+   font-size: 30px;
+   text-align: center;
+   margin-top: 15px;
+}
+.ser-100 .ser1 .col6 h4{
+   color: white;
+   font-size: 30px;
+   text-align: center;
+   margin-top: 15px;
+}
+#serp1{
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+#serp2{
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+#serp3{
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+#serp4{
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 40px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+#serp5{
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+#serp6{
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.ser-100 .ser1 .col2 {
+   background-color: #114b7a;
+   width: 500px;
+   height: 850px;
+   margin: 0 auto;
+}
+.ser-100 .ser1 .col2 i {
+   color: white;
+   font-size: 170px;
+   margin-left: 65px;
+}
+.ser-100 .ser1 .col3 {
+   background-color: #0d3c61;
+   width: 500px;
+   height: 850px;
+   margin: 0 auto;
+}
+.ser-100 .ser1 .col3 i {
+   color: white;
+   font-size: 180px;
+   margin-left: 55px;
+}
+.ser-100 .ser1 .col4 {
+   background-color: #114b7a;
+   width: 500px;
+   height: 850px;
+   margin: 0 auto;
+}
+.ser-100 .ser1 .col4 i {
+   color: white;
+   font-size: 170px;
+   margin-left: 50px; 
+}
+.ser-100 .ser1 .col5 {
+   background-color: #0d3c61;
+   width: 500px;
+   height: 850px;
+   margin: 0 auto;
+}
+.ser-100 .ser1 .col5 i {
+   color: white;
+   font-size: 150px;
+   margin-left: 50px;
+   margin-top: 10px;
+}
+.ser-100 .ser1 .col6 {
+   background-color: #114b7a;
+   width: 500px;
+   height: 850px;
+   margin: 0 auto;
+}
+.ser-100 .ser1 .col6 i{
+   color: white;
+   font-size: 150px;
+   margin-left: 60px;
+   margin-top: 10px;
+}
+.port-100 {
+   background-color: black;
+   width: 100%;
+   height: 1000px;
+}
+.port-100 .port1 {
+   width: 1700px;
+   height: 100%;
+   margin: 0 auto;
+}
+.port-100 .port1 .porthead {
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+   height: 150px;
+   margin: 0 auto;
+}
+.port-100 .port1 .portcont {
+   width: 100%;
+   height: 800px;
+   margin: 0 auto;
+   display: flex;
+}
+.port-100 .port1 .porthead h1 {
+   color: white;
+   text-align: center;
+   font-size: 45px;
+   line-height: 150px;
+}
+.port-100 .port1 .col1 {
+   width: 566px;
+   height: 800px;
+   margin: 0 auto;
+}
+.port-100 .port1 .col2 {
+   width: 566px;
+   height: 800px;
+   margin: 0 auto;
+}
+.port-100 .port1 .col3 {
+   width: 566px;
+   height: 800px;
+   margin: 0 auto;
+}
+#portimg1 {
+   height: 800px;
+   width: 566px;
+}
+#portimg1:hover {
+   color: orange;
+   opacity: 30%;  
+}
+#portimg2 {
+   height: 800px;
+   width: 566px;
+}
+#portimg2:hover {
+   color: orange;
+   opacity: 30%;  
+}
+#portimg3 {
+   height: 800px;
+   width: 566px;
+}
+#portimg3:hover {
+   color: orange;
+   opacity: 30%;  
+}
+.about-100 {
+   background-color: black;
+   width: 100%;
+   height: 1000px;
+}
+.about-100 .about1 {
+   width: 1700px;
+   height: 100%;
+   margin: 0 auto;
+}
+.about-100 .about1 .abouthead {
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+   height: 150px;
+   margin: 0 auto;
+   line-height: 150px;
+}
+.about-100 .about1 .aboutcont {
+   width: 100%;
+   height: 850px;
+   margin: 0 auto;
+   display: flex;
+}
+.about-100 .about1 .abouthead h1 {
+   color: white;
+   text-align: center;
+   font-size: 45px;
+}
+.about-100 .about1 .col1 {
+   width: 50%;
+   height: 850px;
+   margin: 0 auto;
+   text-align: center;
+}
+.about-100 .about1 .col2 {
+   color: white;
+   width: 50%;
+   height: 850px;
+   font-size: 30px;
+   margin: 0 auto;
+   text-align: center; 
+}
+#img1 {
+   margin-top: 100px;
+   width: 100%;
+}
+#p1 {
+   margin-top: 200px;
+}
+.footer-100 {
+   height: 200px;
+   width: 100%;
+   background-color: black;
+}
+.footer-100 .footer {
+   height: 100%;
+   width: 100%;
+   background-color: #003a49;
+   margin: 0 auto;
+}
+.footer-100 .footer .footercont{
+   height: 100%;
+   width: 300px;
+   display: flex;
+   margin-left: 75%;
+}
+.footer-100 .footer .col1{
+   margin: auto;
+}
+.footer-100 .footer .col2{
+   margin: auto;
+}
+.footer-100 .footer .col3{
+   margin: auto;
+}
+.footer-100 .footer .col4{
+   margin: auto;
+}
+.footer-100 .footer .col1 i{
+   font-size: 50px;
+   color: white;
+}
+.footer-100 .footer .col1 i:hover{
+   color: #900C3F;
+}
+.footer-100 .footer .col2 i{
+   font-size: 50px;
+   color: white;
+}
+.footer-100 .footer .col2 i:hover{
+   color: #900C3F;
+}
+.footer-100 .footer .col3 i{
+   font-size: 50px;
+   color: white;
+}
+.footer-100 .footer .col3 i:hover{
+   color: #900C3F;
+}
+.footer-100 .footer .col4 i{
+   font-size: 50px;
+   color: white;
+}
+.footer-100 .footer .col4 i:hover{
+   color: #900C3F;
+}
+
+.s2{
+   overflow: hidden;
+   background-color: #003a49;
+   display: inline-block;
+   text-align: center;
+   width: 100%;
+}
+.s2 h1{
+   padding-bottom: 30px ;
+   color: white;
+   font-size: 50px;
+}
+form{
+   width: 400px;
+   display: block;
+   margin:0 auto;
+   text-align: left;
+}
+input{
+   width: 100%;
+   margin-bottom: 15px;
+   padding:7px 8px;
+   box-sizing: border-box;
+   border: 0;
+   outline: 0;
+   background-color: white;
+}
+input:focus {
+   border-bottom: 3px solid black;
+   color: rgb(0, 0, 0);
+}
+::placeholder{
+   color: rgb(0, 0, 0);
+}
+textarea{
+   width: 100%;
+   margin-bottom: 15px;
+   padding:7px 8px;
+   box-sizing: border-box;
+   border: 0;
+   outline: 0;
+   height: 100px;
+}
+textarea:focus{
+   border-bottom: 3px solid black;
+   color: blueviolet;
+}
+.Sendbtn {
+   width: 100px;
+   box-shadow: 3px 2px 1px 0px black;
+   font-size: 15px;
+   text-align: center;
+   margin-left: 40%;
+}
+.Sendbtn:hover{
+   background-color: black;
+   color: rgb(255, 255, 255);
+   box-shadow: 3px 2px 1px 0px orange;
+}
